@@ -27,23 +27,9 @@ total_score = afn.score(edited_text)
 
 #print the results
 if total_score > 0:
-    print ("The text has a poistive sentiment of ", end = " ")
+    print ("The text has a positive sentiment of ", end = " ")
 elif total_score < 0:
     print ("The text has a negative sentiment of ", end = " ")
 else:
     print ("the text has a neutral sentiment of ", end = " ")
 print (total_score)
-
-
-
-#creating list sentences
-
-           
-# compute scores (polarity) and labels
-# scores = [afn.score(article) for article in news_df]
-# sentiment = ['positive' if score > 0 
-#                           else 'negative' if score < 0 
-#                               else 'neutral' 
-#                                   for score in scores]
-      
-# print (scores)
