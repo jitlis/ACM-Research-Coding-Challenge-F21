@@ -13,7 +13,7 @@ Regardless if you can or cannot answer the question, provide a short explanation
 ## Solution
 The solution uses the afinn library to perform sentiment analysis on the input.txt file. The language used was python. The afinn library assigns a score to every word between -5 and +5 and finds the sum.
 I expected the overall score to be slightly positve because the first paragraph seemed to have a negative score and the second had a more positive score. The results were a 
-positive score of 28 with stopwords and 24 without stopwords. Stopwords are words that are very commonly used such as "in," which can impact the score. Both results showed that the text was more positve than I expected
+positive score of 24 with stopwords and 28 without stopwords. Stopwords are words that are very commonly used such as "in," which can impact the score. Both results showed that the text was more positve than I expected
 
 ## Reflection
 Going into this project I was very unfamiliar with python and never heard of sentiment analysis before. I was excited to learn new things but also nervous of failing the challenge. The solution is pretty straightforward, but I feel like a more complex solution could have been made, but wasn't necessary. 
